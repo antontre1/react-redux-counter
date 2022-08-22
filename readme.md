@@ -3,7 +3,9 @@
 
 <ol>
   <li>for the counter itself, we need one value : count. This value won't be a react state here, but will be linked to redux state, and will be affected via reducers/actions</li>
-  <img style="margin-left: auto;margin-right: auto" src="./src/img/redux-store.png" alt="DB_Schema" width="300px"/>
+  <p align="center">
+    <img src="./src/img/redux-store.png" alt="DB_Schema" width="300px"/>
+  </p>
   <li>to do so we need to define firstly a store : store.js</li>
     <ul>
       <li>declared for the entire app, via index.js calling Provider with 'store' as the store</li>
@@ -13,10 +15,11 @@
     <ul>
       <li>the slice helps to define easily actions (increase, decrease) to be applied on the state, and give him an initial state</li>
     </ul>
-  <img style="margin-left: auto;margin-right: auto" src="./src/img/redux-reducer.png" alt="DB_Schema" width="300px"/>
+  <p align="center">
+    <img src="./src/img/redux-reducer.png" alt="DB_Schema" width="300px"/>
+  </p>
   <li>once done, we have to import all the elements needed in the component Counter:</li>
 </ol>
-
 ```bash
   import { useDispatch, useSelector } from 'react-redux'
   import { decrease, increase } from './counterSlice'
