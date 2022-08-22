@@ -20,6 +20,8 @@
   </p>
   <li>once done, we have to import all the elements needed in the component Counter:</li>
 </ol>
+
+
 ```bash
   import { useDispatch, useSelector } from 'react-redux'
   import { decrease, increase } from './counterSlice'
