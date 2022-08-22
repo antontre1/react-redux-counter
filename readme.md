@@ -8,7 +8,9 @@
       <li>within we'll have a call on each reducer</li>
     </ul>
   <li>so, we define our reducer for our counter : counterReducer via a 'slice' (toolkit) defined in the file counterSlice.js</li>
-    - the slice helps to define easily actions (increase, decrease) to be applied on the state, and give him an initial state
+    <ul>
+      <li>the slice helps to define easily actions (increase, decrease) to be applied on the state, and give him an initial state</li>
+    </ul>
   <li>once done, we have to import all the elements needed in the component Counter:</li>
 </ol>
 
