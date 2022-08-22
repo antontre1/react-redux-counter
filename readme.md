@@ -18,7 +18,7 @@
   <p align="center">
     <img src="./src/img/redux-reducer.png" alt="DB_Schema" width="300px"/>
   </p>
-  <li>once done, we have to import all the elements needed in the component Counter:</li>
+  <li>once done, we have to import all the elements needed in the component Counter, and use them:</li>
 </ol>
 
 
